@@ -16,3 +16,5 @@ total_money = e1 + e2
 # print the amounts with decimal point and only two numbers after the point. 
 
 print (f"the sum of the amounts is €{total_money:.2f}")
+
+# referrence https://pythonguides.com/python-print-2-decimal-places/
