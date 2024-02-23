@@ -1,10 +1,13 @@
+#Bank.py Task
+#Author: Roisin Stanley
+
 # read in the amounts in cents
 amount1 = 65
 amount2 = 180
 
-# change to Euro (100c in a euro)
-e1 = amount1 / 100
-e2 = amount2 / 100
+# change to Euro (100c in a euro) and change float to integer
+e1 = int(amount1) / 100
+e2 = int(amount2) / 100
 
 # add the two amounts
 total_money = e1 + e2
