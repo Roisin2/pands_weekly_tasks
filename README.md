@@ -14,12 +14,13 @@ Weekly task hand up.
     squareroot.py
     plottask.py
     es.py
-    
-## Use of this project.
+
+ <h3 align="center">
 
 ## Getting started.
      There were requirements for Visual Studio Code (https://code.visualstudio.com/) in order to work with the repository in Github.
      The code used is python, so Annaconda (https://www.anaconda.com/download) was also down loaded and used. It has so many built in functions such as Pandas, Matplotlib and Numpy.
+     </h3>
 
 ## Getting help
 
