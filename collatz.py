@@ -8,7 +8,7 @@ print("This is The Collatz Sequence")
 
 def collatz(number):
     sequence = [number]
-    # Generates the successive values of the Collatz sequence for a given positive integer.
+    # Generate the successive values of the Collatz sequence for a given positive integer.
     
     
     while number != 1:  # continue till sequence = 1
