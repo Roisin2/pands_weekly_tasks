@@ -21,13 +21,16 @@ Weekly task hand up.
     Unfortunatly due to my lack of expierence I encounterd a few issues with my committing of changes and out of worry of losing anymore material I will now add any         
     additional comments or information in this space.
     
-    For Bank.py, I needed to change float to an integer and do addition, and print the answer. After progressing my Knowlege I may have done it a little differently bu 
-    using floor. But I believe the answer I gave was ok.
+    For Bank.py, I needed to change float to an integer and do addition, and print the answer. I read in the amounts in cents eg.amount1 = 65. 
+    Then change to Euro (100c in a euro) and change float to integer eg. e1 = int(amount1) / 100.  Then added both - total_money = e1 + e2
+    Printed the amounts with decimal point and only two numbers after the point. - print (f"the sum of the amounts is €{total_money:.2f}")
+    After progressing my Knowlege I may have done it a little differently by using "floor". But I believe the answer I gave was suffient as a novice.
+    "floor" is a function from "math" that can imported.
     
     For accounts.py, a user is prompted to enter a 10 digit code and the program will check if exactly 10 digits, if the entry was valid, it will mask 6 numbers 
     with X and append the last 4 and print it out.
 
-    Weekday.py - I imported datetime module.That gives todays date Returning the day of the week as an integer, eg. Monday is 0. A Loop is used to check what day it is and      prints a message according to the day.
+    Weekday.py - I imported datetime module.That gives todays date Returning the day of the week as an integer, eg. Monday is 0. A Loop is used to check what day it is and      prints a message according to the day, depending on if its a weekday or weekend day.
     Another reference I would like to add is https://realpython.com/if-name-main-python/#when-should-you-use-the-name-main-idiom-in-python
 
     Collatz.py -This was a little tricky, Maths was needed.
@@ -39,10 +42,11 @@ Weekly task hand up.
     The abs module was imported to change a negitive to a positive
     
     plottask.py - Even though I liked this task, a simple over sight of () puzzled me for a long time. I could not get my plot to show even though a lot of this was
-    covered in another subject with another lecturer. I relied on Ian Mc Loughlins sample code to complete this task. Numpy and Matplotlib.pyplot were imported.
+    covered in another subject with another lecturer. I relied on Ian Mc Loughlin - a lecturer at [ATU] (https://www.atu.ie/) sample code to complete this task. Numpy and 
+    Matplotlib.pyplot were imported.
     Matplotlib.pyplot is assigned as plt in the script. It is used to create the Histogram.
-    Numpy, was required to generate the random numbers, as it creates efficient data structures for dealing with numerical data it was also called on for
-    
+    Numpy, was required to generate the random numbers, as it creates efficient data structures for dealing with numerical data. It was also called on for linspace: that 
+    returns evenly spaced numbers over a specified interval.
     Another simple puzzle for me was colour was "color" in code when I wished to have yellow and purple for something different. A little bit of research allowed me to see 
     my errors. The Real Python website was a good help here. As was W3schools where i saw how to enter a grid. (https://www.w3schools.com/python/matplotlib_grid.asp)
     
