@@ -17,15 +17,18 @@ Weekly task hand up.
     
 ## Use of this project.
     In doing these tasks, I was required to cover the course material but also source my own help through the linked websites. The class also has a group chat that helped 
-    me when I got a bit lost with the technology along the way. There are links to references and sources beside the code within the py's.
+    me a little when I got a bit lost with the technology along the way. There are links to references and sources beside the code within the py's.
+    Unfortunatly due to my lack of expierence I encounterd a few issues with my committing of changes and out of worry of losing anymore material I will now add any         
+    additional comments or information in this space.
     
-    For Bank.py I needed to change float to an integer and do addition, and printing the answer.
+    For Bank.py, I needed to change float to an integer and do addition, and print the answer. After progressing my Knowlege I may have done it a little differently bu 
+    using floor. But I believe the answer I gave was ok.
     
     For accounts.py, a user is prompted to enter a 10 digit code and the program will check if exactly 10 digits, if the entry was valid, it will mask 6 numbers 
     with X and append the last 4 and print it out.
 
-    Weekday.py - I imported datetime module. Returning the day of the week as an integer, eg. Monday is 0. Loop is used to check what day it is and prints a message         
-    according to the day.
+    Weekday.py - I imported datetime module.That gives todays date Returning the day of the week as an integer, eg. Monday is 0. A Loop is used to check what day it is and      prints a message according to the day.
+    Another reference I would like to add is https://realpython.com/if-name-main-python/#when-should-you-use-the-name-main-idiom-in-python
 
     Collatz.py -This was a little tricky, Maths was needed.
     While the number was not 1, %  was used for checking if a number could be divived by 2. (even number). If a number wasnt even, multiplication and addition was required.     The user is asked to enter a positive number, (printing if positive) If user entered a negitive number they were given a promt to please enter a positive integer. If it     was an odd number the program would print eg This is The Collatz Sequence
@@ -35,11 +38,34 @@ Weekly task hand up.
     Squareroot.py - 
     The abs module was imported to change a negitive to a positive
     
+    plottask.py - Even though I liked this task, a simple over sight of () puzzled me for a long time. I could not get my plot to show even though a lot of this was
+    covered in another subject with another lecturer. I relied on Ian Mc Loughlins sample code to complete this task. Numpy and Matplotlib.pyplot were imported.
+    Matplotlib.pyplot is assigned as plt in the script. It is used to create the Histogram.
+    Numpy, was required to generate the random numbers, as it creates efficient data structures for dealing with numerical data it was also called on for
+    
+    Another simple puzzle for me was colour was "color" in code when I wished to have yellow and purple for something different. A little bit of research allowed me to see 
+    my errors. The Real Python website was a good help here. As was W3schools where i saw how to enter a grid. (https://www.w3schools.com/python/matplotlib_grid.asp)
+    
+    es.py - So in this task "sys" was used. 
+        According to stackoverflow (https://stackoverflow.com/questions/4765085/using-command-line-arguments-in-python-understanding-sys-argv)
+        sys.argv is a list in Python that contains the command-line arguments passed to a script when it is run.
+        The expression len(sys.argv) calculates the length of this list,which corresponds to the number of arguments.
+        The condition len(sys.argv) != 2 checks if the number of arguments is not equal to 2 
+        If the condition is true, it shows that the user didnt give the expected number of arguments,
+        and the script can then handle this condition.
+    The Task itself was looking for the amount of letter "e's" that were contained in a text file. The program will take the filename from argument on the command line.
+    My program opened the text file, read it, and counted e. I allowed for Error handling. eg File not found.
+    If the script is run directly ie not imported  - it can processes the command line argument.
 
+ 
+ '''
+    
 ## Getting started.
      There were requirements for Visual Studio Code (https://code.visualstudio.com/) in order to work with the repository in Github.
      The code used is python, so Annaconda (https://www.anaconda.com/download) was also down loaded and used. It has so many built in functions such as Pandas, Matplotlib        and Numpy.
      
 
 ## Author
-    I study at [ATU] (https://www.atu.ie/). I am a mature student returning to education. I have a Bachelors of Business Studies from the former Institute of Technology Sligo - now part of ATU. I find this an interesting subject and hope to continue learning online from the beautiful north west of Ireland. I will be looking for work in the near future and at this moment I will leave my contact as my University Email. 
+    I study at [ATU] (https://www.atu.ie/). I am a mature student returning to education. I have a Bachelors of Business Studies from the former Institute of Technology     
+    Sligo - now part of ATU. I find this an interesting subject and hope to continue learning online from the beautiful north west of Ireland. I will be looking for work in 
+    the near future and at this moment I will leave my contact as my University Email. 
