@@ -16,8 +16,8 @@ Weekly task hand up.
     es.py
     
 ## Use of this project.
-    In doing these tasks, I was required to cover the course material but also source my own help through the linked websites. The class also has a group chat that helped 
-    me a little when I got a bit lost with the technology along the way. There are links to references and sources beside the code within the py's.
+    In doing these tasks, I was required to cover the course material but also source my own help through websites that are linked. The class also has a group chat that     
+    helped  me a little when I got a bit lost with the technology along the way. There are links to references and sources beside the code within the py's.
     Unfortunatly due to my lack of expierence I encounterd a few issues with my committing of changes and out of worry of losing anymore material I will now add any         
     additional comments or information in this space.
     
@@ -29,9 +29,18 @@ Weekly task hand up.
     
     For accounts.py, a user is prompted to enter a 10 digit code and the program will check if exactly 10 digits, if the entry was valid, it will mask 6 numbers 
     with X and append the last 4 and print it out.
+    An extra task was completed by modifcation of the program to deal with account numbers of any length ... My thoughts for this is possibly because of revolute or other       international banks having longer account numbers.
+    A string of “x” characters is created when the length of the string is equal to the number of digits to be masked. The 4 last digits of the account number are attached.
+        Eg.
+        if not account_1.isdigit():
+        print("invalid account number")  # as long as digits entered as an a/c number but only allow last 4 numbers to be visable
+        else:
+        masked_number ="x"* (len(account_1)-4) + account_1[-4: ] 
+        print("your masked a/c number is:",masked_number)
+    
 
-    Weekday.py - I imported datetime module.That gives todays date Returning the day of the week as an integer, eg. Monday is 0. A Loop is used to check what day it is and      prints a message according to the day, depending on if its a weekday or weekend day.
-    Another reference I would like to add is https://realpython.com/if-name-main-python/#when-should-you-use-the-name-main-idiom-in-python
+    Weekday.py - I imported datetime module. That gives todays date returning the day of the week as an integer, eg. Monday is 0.  A Loop is used to check what day it is        and prints a message according to the day, depending on if its a weekday or weekend day.
+    Another reference I would like to add is real python (https://realpython.com/if-name-main-python/#when-should-you-use-the-name-main-idiom-in-python)
 
     Collatz.py -This was a little tricky, Maths was needed.
     While the number was not 1, %  was used for checking if a number could be divived by 2. (even number). If a number wasnt even, multiplication and addition was required.     The user is asked to enter a positive number, (printing if positive) If user entered a negitive number they were given a promt to please enter a positive integer. If it     was an odd number the program would print eg This is The Collatz Sequence
@@ -50,8 +59,6 @@ Weekly task hand up.
     result = sqrt(number)
     print(f"The square root of { 14.5} is aprox {result:.6f}")
 
-    
-    
     
     plottask.py - Even though I liked this task, a simple over sight of () puzzled me for a long time. I could not get my plot to show even though a lot of this was
     covered in another subject with another lecturer. I relied on Ian Mc Loughlin - a lecturer at [ATU] (https://www.atu.ie/) sample code to complete this task. Numpy and 
