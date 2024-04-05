@@ -38,8 +38,20 @@ Weekly task hand up.
                                                 Enter a positive integer: 5
                                                 sucessive values of sequence: [5, 16]
 
-    Squareroot.py - 
-    The abs module was imported to change a negitive to a positive
+    Squareroot.py 
+    The function sqrt(x) calculates the square root of a positive number. It will check if the input is less than 0, if it is, it will give a Value Error and print message      about it ("input must be a positive number"). The function uses the Newton-Raphson method to estimate the square root iteratively.
+    The tolerence level for convergence was set at tol = 1e-6 , and an initial estimate of the  square root.
+    Inside the While loop an new estimate is calculated using new estimate. The loop continues until the absolute difference between the two is less than the specified     
+    tolerance.
+    Then there is a convergence check, if estimate has converged (inside tolerance) the function will return final estimate, otherwise the loop will continue after updating 
+    the estimate.    
+    # example
+    number = 14.5
+    result = sqrt(number)
+    print(f"The square root of { 14.5} is aprox {result:.6f}")
+
+    
+    
     
     plottask.py - Even though I liked this task, a simple over sight of () puzzled me for a long time. I could not get my plot to show even though a lot of this was
     covered in another subject with another lecturer. I relied on Ian Mc Loughlin - a lecturer at [ATU] (https://www.atu.ie/) sample code to complete this task. Numpy and 
@@ -62,7 +74,7 @@ Weekly task hand up.
     If the script is run directly ie not imported  - it can processes the command line argument.
 
  
- '''
+
     
 ## Getting started.
      There were requirements for Visual Studio Code (https://code.visualstudio.com/) in order to work with the repository in Github.
