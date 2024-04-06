@@ -39,7 +39,8 @@ Weekly task hand up.
         print("your masked a/c number is:",masked_number)
     
 
-    Weekday.py - I imported datetime module. That gives todays date returning the day of the week as an integer, eg. Monday is 0.  A Loop is used to check what day it is        and prints a message according to the day, depending on if its a weekday or weekend day.
+    Weekday.py - I imported datetime module. That gives todays date returning the day of the week as an integer, eg. Monday is 0. A Loop is used to check what day it is         and prints a message according to the day, depending on if its a weekday or weekend day.
+    The if_name_== "_main_” block is where the execution will start. It calls weekday() function and store result in result variable. Depending on the value of result it        It will print a message according to the day of the week. The code begins by importing datetime module. It gives functions in python to work with dates and times.           Is_weekday is defined as a functon and its purpose is to decide if today is a weekday or not. It will reurn a string depending on the answer. Saturday and Sunday are        5 and 6 respectivley and are “weekend”.
     Another reference I would like to add is real python (https://realpython.com/if-name-main-python/#when-should-you-use-the-name-main-idiom-in-python)
 
     Collatz.py -This was a little tricky, Maths was needed.
