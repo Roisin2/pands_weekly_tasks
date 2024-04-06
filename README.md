@@ -27,10 +27,9 @@ Weekly task hand up.
     After progressing my Knowlege I may have done it a little differently by using "floor". But I believe the answer I gave was suffient as a novice.
     "floor" is a function from "math" that can imported.
     
-    For accounts.py, a user is prompted to enter a 10 digit code and the program will check if exactly 10 digits, if the entry was valid, it will mask 6 numbers 
-    with X and append the last 4 and print it out.
-    An extra task was completed by modifcation of the program to deal with account numbers of any length ... My thoughts for this is possibly because of revolute or other       international banks having longer account numbers.
-    A string of “x” characters is created when the length of the string is equal to the number of digits to be masked. The 4 last digits of the account number are attached.
+    For accounts.py, a user is prompted to enter a 10 digit code with the input function.
+    The code will check if the input meets some conditions, and the program will check if length exactly 10 digits and if they are digits. If the conditions are  not met a      message is printed regarding invalidity. If the entry was valid, it will mask 6 numbers with X and show the last 4 and print it out.
+         An extra task was completed by modifcation of the program to deal with account numbers of any length ... My thoughts for this is possibly because of revolute or             other international banks having longer account numbers.A string of “x” characters is created when the length of the string is equal to the number of digits to be           masked. The 4 last digits of the account number are attached.
         Eg.
         if not account_1.isdigit():
         print("invalid account number")  # as long as digits entered as an a/c number but only allow last 4 numbers to be visable
@@ -47,9 +46,9 @@ Weekly task hand up.
     There are 2 functions defined collatz(number) and Main(). collatz(number) will take a positive integer, start a list called sequence with the initial value of number.
     It enters a loop that will continue until it reaches 1. Inside the loop if the number is even it divides by 2. It its odd it will multiply by 3 and add 1.The new           value of the number is appended to the sequence and returns the collatz sequence.
     Main (): Will prompt the user to enter a positive integer, validate it. If not positive it will print error message. Otherwise it will call on collatz() function and        print the successive values of the sequence()
-    If it was an odd number the program would print eg This is The Collatz Sequence
-                                                Enter a positive integer: 5
-                                                sucessive values of sequence: [5, 16]
+    If it was an odd number the program would print eg  This is The Collatz Sequence
+                                                        Enter a positive integer: 5
+                                                        sucessive values of sequence: [5, 16]
 
     Squareroot.py 
     The function sqrt(x) calculates the square root of a positive number. It will check if the input is less than 0, if it is, it will give a Value Error and print message      about it ("input must be a positive number"). The function uses the Newton-Raphson method to estimate the square root iteratively.
